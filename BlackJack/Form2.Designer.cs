@@ -38,10 +38,10 @@ namespace BlackJack
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::BlackJack.Properties.Resources._0;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Image = global::BlackJack.Properties.Resources._01;
+            this.pictureBox1.Location = new System.Drawing.Point(16, 46);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 454);
+            this.pictureBox1.Size = new System.Drawing.Size(304, 316);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -59,13 +59,14 @@ namespace BlackJack
             // 
             // btn_Iniciar
             // 
-            this.btn_Iniciar.Image = global::BlackJack.Properties.Resources.background_min;
+            this.btn_Iniciar.BackColor = System.Drawing.Color.DarkOrange;
+            this.btn_Iniciar.Font = new System.Drawing.Font("Elephant", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Iniciar.Location = new System.Drawing.Point(102, 409);
             this.btn_Iniciar.Name = "btn_Iniciar";
             this.btn_Iniciar.Size = new System.Drawing.Size(153, 29);
             this.btn_Iniciar.TabIndex = 2;
             this.btn_Iniciar.Text = "INICIAR";
-            this.btn_Iniciar.UseVisualStyleBackColor = true;
+            this.btn_Iniciar.UseVisualStyleBackColor = false;
             this.btn_Iniciar.Click += new System.EventHandler(this.btn_Iniciar_Click);
             // 
             // form_apresentacao

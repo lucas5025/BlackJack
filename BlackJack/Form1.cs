@@ -126,8 +126,8 @@ namespace BlackJack
             lbl_Pontos_B.Text = "0";
             lbl_Resultado.Text = "";
 
-            pictureBox1.Image = Properties.Resources._0;
-            pictureBox2.Image = Properties.Resources._0;
+            pictureBox1.Image = Properties.Resources._01;
+            pictureBox2.Image = Properties.Resources._01;
 
         }
 
@@ -177,6 +177,11 @@ namespace BlackJack
             btn_parar_2.Enabled = false;
             btn_reiniciar.Enabled = true;
             resultado();
+        }
+
+        private void Form_jogo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 
